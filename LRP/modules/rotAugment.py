@@ -3,7 +3,6 @@ import tensorflow as tf
 """
 given an image batch tensor as [batch_size,height,width,channels], 
 generate 4 rotated versions in [0,90,180,270] degrees and concatenate them in batch dimension 
-
 @param img_batch input tensor thath contains images
 @return a [4*batch_size,height,width,channels] version of img_batch
 """

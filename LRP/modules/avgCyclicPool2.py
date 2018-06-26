@@ -15,7 +15,7 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
-from modules.module import Module
+from module import Module
 import numpy as np
 
 

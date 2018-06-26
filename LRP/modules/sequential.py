@@ -17,8 +17,8 @@ from __future__ import print_function
 import copy
 import sys
 import numpy as np
-from modules.module import Module
-from modules.train2 import Train 
+from module import Module
+from train import Train 
 import tensorflow as tf
 
 #no lo usa el 'na'
@@ -214,7 +214,8 @@ class Sequential(Module):
                 weights.append(W)
                 biases.append(B)
             except:
-                print("layer without params")
+                pass
+                #print("layer without params")
         
         return weights, biases
     
